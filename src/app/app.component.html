@@ -1,3 +1,18 @@
 <h1>
   {{title}}
 </h1>
+
+
+<div class="container">
+  <div class="card">
+    <div class="card-content">
+      <span class="card-title truncate">
+
+      </span>
+    </div>
+  </div>
+  <div class="row center">
+    <person *ngFor="let _person of people"
+            [person]="_person"></person>
+  </div>
+</div>

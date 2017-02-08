@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class NgStarwarsPage {
+export class Ng2StarwarsPage {
   navigateTo() {
     return browser.get('/');
   }

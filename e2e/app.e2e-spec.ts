@@ -1,10 +1,10 @@
-import { NgStarwarsPage } from './app.po';
+import { Ng2StarwarsPage } from './app.po';
 
-describe('ng-starwars App', function() {
-  let page: NgStarwarsPage;
+describe('ng2-starwars App', function() {
+  let page: Ng2StarwarsPage;
 
   beforeEach(() => {
-    page = new NgStarwarsPage();
+    page = new Ng2StarwarsPage();
   });
 
   it('should display message saying app works', () => {
